@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z} {A..Z} | tr " " "\n" | grep .v 00
+echo {a..z}{A..Z} | tr " " "\n" | grep .v "00"
